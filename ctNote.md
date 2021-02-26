@@ -12,7 +12,7 @@
 
 *---------------------------------*
 
-github 常用命令
+github 常用命令 *
 
 echo "# myvueproject" >> README.md
 git init
