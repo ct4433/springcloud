@@ -10,5 +10,18 @@
 
 网关部署在消费者里 gateway负责负载均衡
 
+*---------------------------------*
 
+github 常用命令
 
+echo "# myvueproject" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:ct4433/springboot.git
+git push -u origin main
+
+添加所有文件	git add .
+
+*---------------------------------*
