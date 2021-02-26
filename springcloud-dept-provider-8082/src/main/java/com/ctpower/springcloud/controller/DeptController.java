@@ -33,7 +33,6 @@ public class DeptController {
 
     @GetMapping("/dept/get/{id}")
     public Dept queryById(@PathVariable("id") Long id) {
-        System.out.println("8002");
         return deptService.queryById(id);
     }
 

@@ -1,9 +1,8 @@
 package com.ctpower.springcloud.controller;
 
+
 import com.ctpower.springcloud.pojo.Dept;
 import com.ctpower.springcloud.service.DeptService;
-
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCollapser;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
@@ -36,7 +35,6 @@ public class DeptController {
     @HystrixCommand(fallbackMethod = "hystrixGet")
     @GetMapping("/dept/get/{id}")
     public Dept queryById(@PathVariable("id") Long id) {
-        System.out.println("8001");
         Dept dept = deptService.queryById(id);
         if (dept==null){
             throw new RuntimeException("这个id=>"+id+",不存在该用户，或信息无法找到~");
