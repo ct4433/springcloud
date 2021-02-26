@@ -43,12 +43,11 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka/
   instance:
-    instance-id: 8001的eureka描述信息 #修改Eureka上的默认描述信息
-
+    instance-id: 8001的eureka描述信息-加入了hystrixGet #修改Eureka上的默认描述信息
+    prefer-ip-address: true #改为true后默认显示的是ip地址而不再是localhost,对比8082 没有修改
 
 
 #info配置
 info:
   app.name: lzh-springcloud #项目的名称
   company.name: com.lzh #公司的名称
-
