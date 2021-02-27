@@ -18,6 +18,7 @@
         <module>springcloud-dept-provider-8082</module>
         <module>springcloud-dept-consumer-ribbon-80</module>
         <module>springcloud-dept-consumer-dasboard-9001</module>
+        <module>springcloud-conifg-3344</module>
 
     </modules>
 
