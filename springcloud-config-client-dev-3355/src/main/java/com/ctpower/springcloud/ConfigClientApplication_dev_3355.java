@@ -17,4 +17,5 @@ public class ConfigClientApplication_dev_3355 {
         SpringApplication.run(ConfigClientApplication_dev_3355.class,args);
     }
 
+
 }
