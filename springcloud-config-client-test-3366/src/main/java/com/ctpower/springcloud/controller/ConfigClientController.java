@@ -25,6 +25,7 @@ public class ConfigClientController {
     @Value("${hello}")
     private String hello;
 
+
     @RequestMapping("/config")
     @ResponseBody
     public String getConfig(){
