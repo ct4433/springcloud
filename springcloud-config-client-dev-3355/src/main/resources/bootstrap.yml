@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    config:
+      name: config-client
+      profile: dev
+      label: main
+      uri: http://localhost:3344
+
+  rabbitmq:
+    host: 192.168.188.50
+    port: 5672
+    username: admin
+    password: 123
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health

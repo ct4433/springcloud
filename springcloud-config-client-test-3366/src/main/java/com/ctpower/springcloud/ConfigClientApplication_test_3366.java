@@ -11,10 +11,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Copyright www.ctpower.com
  */
 @SpringBootApplication
-public class ConfigClientApplication_3355_or_3366 {
+public class ConfigClientApplication_test_3366 {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigClientApplication_3355_or_3366.class,args);
+        SpringApplication.run(ConfigClientApplication_test_3366.class,args);
     }
 
 }

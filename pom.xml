@@ -19,7 +19,8 @@
         <module>springcloud-dept-consumer-ribbon-80</module>
         <module>springcloud-dept-consumer-dasboard-9001</module>
         <module>springcloud-conifg-server-3344</module>
-        <module>springcloud-config-client-3355</module>
+        <module>springcloud-config-client-dev-3355</module>
+        <module>springcloud-config-client-test-3366</module>
 
     </modules>
 

@@ -7,18 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcloud-config-client-3355" />
         <module name="springcloud-dept-consumer-feign-80" />
-        <module name="springcloud-api" />
         <module name="springcloud-gateway-9527" />
-        <module name="springcloud-conifg-server-3344" />
         <module name="springcloud-dept-consumer-dasboard-9001" />
+        <module name="springcloud-config-client-dev-3355" />
         <module name="springcloud-eureka-7003" />
         <module name="springcloud-eureka-7002" />
         <module name="springcloud-eureka-7001" />
         <module name="springcloud-dept-provider-8081" />
         <module name="springcloud-dept-provider-8082" />
         <module name="springcloud-dept-consumer-ribbon-80" />
+        <module name="springcloud-api" />
+        <module name="springcloud-conifg-server-3344" />
+        <module name="springcloud-config-client-test-3366" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

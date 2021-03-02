@@ -1,5 +1,6 @@
 package com.ctpower.springcloud.controller;
 
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -21,6 +22,8 @@ public class ConfigClientController {
     private String eurekaServer;
     @Value("${server.port}")
     private String port;
+    @Value("${hello}")
+    private String hello;
 
     @RequestMapping("/config")
     @ResponseBody
@@ -30,7 +33,8 @@ public class ConfigClientController {
 
         return "applicationName:" + applicationNanme +
                 "eurekaServer:"+eurekaServer +
-                "port:"+ port;
+                "port:"+ port +
+                "hello" + hello;
 
     }
 

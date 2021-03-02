@@ -14,8 +14,20 @@ spring:
           username: ct4433
           password: ct404404
 
+  rabbitmq:
+    host: 192.168.188.50
+    port: 5672
+    username: admin
+    password: 123
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka/
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
