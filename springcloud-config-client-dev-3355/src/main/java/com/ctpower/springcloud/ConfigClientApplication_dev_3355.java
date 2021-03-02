@@ -16,6 +16,4 @@ public class ConfigClientApplication_dev_3355 {
     public static void main(String[] args) {
         SpringApplication.run(ConfigClientApplication_dev_3355.class,args);
     }
-
-
 }
