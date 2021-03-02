@@ -31,7 +31,7 @@ public class ConfigClientController {
         return "applicationName:" + applicationNanme +
                 "eurekaServer:"+eurekaServer +
                 "port:"+ port +
-                "hello" + hello;
+                "hello:" + hello;
 
     }
 
