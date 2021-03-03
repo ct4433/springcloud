@@ -17,12 +17,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class ConfigClientController {
 
-    @Value("${spring.application.name}")
-    private String applicationNanme;
-    @Value("${eureka.client.service-url.defaultZone}")
-    private String eurekaServer;
-    @Value("${server.port}")
-    private String port;
+//    @Value("${spring.application.yml.name}")
+//    private String applicationNanme;
+//    @Value("${eureka.client.service-url.defaultZone}")
+//    private String eurekaServer;
+//    @Value("${server.port}")
+//    private String port;
     @Value("${hello}")
     private String hello;
 
@@ -31,11 +31,11 @@ public class ConfigClientController {
     public String getConfig(){
 
         return
-                "applicationName:" + applicationNanme +
-                "eurekaServer:"+eurekaServer +
-                "port:"+ port +
+//                "applicationName:" + applicationNanme +
+//                "eurekaServer:"+eurekaServer +
+//                "port:"+ port +
                 "hello:" + hello;
-
+//
     }
 
 
