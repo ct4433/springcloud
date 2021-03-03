@@ -34,3 +34,27 @@ maven添加依赖，dependencies没有响应，可以先clean一下，看看有�
 feign就是在ribbon的基础上实现了面向接口编程，本质上还是ribbon，性能会降低
 
 服务降级是在feign工程实现，接口在api工程里，当8081 8082 都宕机时，会进行服务降级，恢复任意一个服务，即可恢复
+
+-----
+bus总结
+
+要加入注解    @ResponseBody 否则不能自动刷新
+
+3355 是客户端 启动的配置文件要写在bootstrap.yml里面
+其余配置可以写在git里，远程读取，远程的会覆盖本地的application.yml
+bootstrap.yml
+spring:
+cloud:
+config:
+uri: http://localhost:3344
+name: client
+profile: dev
+label: master
+
+远程的配置文件可以写在一个目录下面
+文件名 client.yml
+第一部分 全局
+第二部分 dev
+第三部分 test
+
+通过bootstrap.yml切换dev、test

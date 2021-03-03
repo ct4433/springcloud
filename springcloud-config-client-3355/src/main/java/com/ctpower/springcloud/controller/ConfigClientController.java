@@ -1,7 +1,7 @@
 package com.ctpower.springcloud.controller;
 
-
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Copyright www.ctpower.com
  */
 @RestController
+@RefreshScope
 public class ConfigClientController {
 
     @Value("${spring.application.name}")
@@ -22,6 +23,8 @@ public class ConfigClientController {
     private String eurekaServer;
     @Value("${server.port}")
     private String port;
+    @Value(("${globle}"))
+    private String globle;
     @Value("${hello}")
     private String hello;
 
@@ -29,12 +32,12 @@ public class ConfigClientController {
     @ResponseBody
     public String getConfig(){
 
-
-
-        return "applicationName:" + applicationNanme +
-                "eurekaServer:"+eurekaServer +
-                "port:"+ port +
-                "hello" + hello;
+        return
+                "applicationName:" + applicationNanme + "\r\n" +
+                "eurekaServer:"+eurekaServer + "\r\n" +
+                "port:"+ port + "\r\n" +
+                "globle:" + globle+ "\r\n" +
+                "hello:" + hello;
 
     }
 
