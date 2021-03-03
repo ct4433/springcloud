@@ -3,15 +3,15 @@ server:
 
 spring:
   application:
-    name: cloud-config-center
+    name: config-server
 
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/ct4433/springcloud-config.git
-          default-label: main
-          username: ct4433
+          uri: https://gitee.com/ctpower/config.git
+          default-label: master
+          username: ctpower
           password: ct404404
 
   rabbitmq:

@@ -3,7 +3,7 @@ spring:
     config:
       name: config-client
       profile: test
-      label: main
+      label: master
       uri: http://localhost:3344
 
   rabbitmq:
@@ -16,4 +16,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: '*'
+        include: "*"

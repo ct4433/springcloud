@@ -1,10 +1,13 @@
 spring:
+  application:
+    name: client
+
   cloud:
     config:
-      name: config-client
+      discovery:
+        enabled: true
+        service-id: config-server
       profile: dev
-      label: main
-      uri: http://localhost:3344
 
   rabbitmq:
     host: 192.168.188.50
@@ -12,8 +15,15 @@ spring:
     username: admin
     password: 123
 
+eureka:
+  instance:
+    ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+
 management:
   endpoints:
     web:
       exposure:
-        include: '*'
+        include: "*"
