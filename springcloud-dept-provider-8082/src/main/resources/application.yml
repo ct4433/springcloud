@@ -11,6 +11,13 @@ mybatis:
 spring:
   application:
     name: springcloud-provider-dept
+
+  zipkin:
+    base-url: http://192.168.188.50:9411
+  sleuth:
+    sampler:
+      probability: 1.0
+
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource #数据库
     driver-class-name: com.mysql.cj.jdbc.Driver

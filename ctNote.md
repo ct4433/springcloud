@@ -68,3 +68,14 @@ https://www.jianshu.com/p/f3611a94bf98
 
 在application.yml spring 目录下，添加rabbitmq的配置
 
+---
+linux启动zipkin
+docker run --name zipkin -d -p 9411:9411 openzipkin/zipkin
+
+---
+zipkin
+
+docker里面的zipkin版本要和springcloud里面的版本一致
+
+zipkin的dependencies中显示的事springcloud application name中定义的名字
+所以要取相应的名字，否则依赖关系图会显示default
