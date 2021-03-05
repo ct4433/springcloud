@@ -58,3 +58,13 @@ label: master
 第三部分 test
 
 通过bootstrap.yml切换dev、test
+
+---
+STREAM
+
+https://www.jianshu.com/p/f3611a94bf98
+
+启动报错，如何解决
+
+在application.yml spring 目录下，添加rabbitmq的配置
+
