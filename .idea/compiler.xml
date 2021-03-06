@@ -22,6 +22,7 @@
         <module name="springcloud-dept-provider-8082" />
         <module name="springcloud-alibaba-dept-provider-9002" />
         <module name="springcloud-dept-consumer-ribbon-80" />
+        <module name="springcloud-alibaba-config-client-3377" />
         <module name="springcloud-stream-consumer-8802" />
         <module name="springcloud-api" />
         <module name="springcloud-conifg-server-3344" />

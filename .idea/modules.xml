@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/springcloud-alibaba-dept-consumer-83/springcloud-alibaba-dept-consumer-83.iml" filepath="$PROJECT_DIR$/springcloud-alibaba-dept-consumer-83/springcloud-alibaba-dept-consumer-83.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-alibaba-config-client-3377/springcloud-alibaba-config-client-3377.iml" filepath="$PROJECT_DIR$/springcloud-alibaba-config-client-3377/springcloud-alibaba-config-client-3377.iml" />
     </modules>
   </component>
 </project>

@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-stream-provider-8801/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-alibaba-dept-provider-9002/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-alibaba-config-client-3377/pom.xml" />
       </list>
     </option>
   </component>

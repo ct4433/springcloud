@@ -25,6 +25,7 @@
         <module>springcloud-stream-consumer-8803</module>
         <module>springcloud-alibaba-dept-provider-9001</module>
         <module>springcloud-alibaba-dept-consumer-83</module>
+        <module>springcloud-alibaba-config-client-3377</module>
 
 
     </modules>
