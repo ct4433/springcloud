@@ -23,6 +23,8 @@
         <module>springcloud-stream-provider-8801</module>
         <module>springcloud-stream-consumer-8802</module>
         <module>springcloud-stream-consumer-8803</module>
+        <module>springcloud-alibaba-dept-provider-9001</module>
+        <module>springcloud-alibaba-dept-consumer-83</module>
 
 
     </modules>

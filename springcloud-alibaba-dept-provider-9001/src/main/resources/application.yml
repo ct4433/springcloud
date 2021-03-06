@@ -1,0 +1,16 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: nacos-dept-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.188.50
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

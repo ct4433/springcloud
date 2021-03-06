@@ -11,13 +11,16 @@
         <module name="springcloud-dept-consumer-feign-80" />
         <module name="springcloud-gateway-9527" />
         <module name="springcloud-dept-consumer-dasboard-9001" />
+        <module name="springcloud-alibaba-dept-consumer-83" />
         <module name="springcloud-eureka-7003" />
         <module name="springcloud-eureka-7002" />
         <module name="springcloud-stream-provider-8801" />
         <module name="springcloud-eureka-7001" />
         <module name="springcloud-dept-provider-8081" />
         <module name="springcloud-stream-consumer-8803" />
+        <module name="springcloud-alibaba-dept-provider-9001" />
         <module name="springcloud-dept-provider-8082" />
+        <module name="springcloud-alibaba-dept-provider-9002" />
         <module name="springcloud-dept-consumer-ribbon-80" />
         <module name="springcloud-stream-consumer-8802" />
         <module name="springcloud-api" />
